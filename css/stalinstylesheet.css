@@ -415,7 +415,7 @@ footer {
 .contact_section                      {clear:both;padding:3em 0px; background-color:#f8f8f8; z-index:1;/*background-image: url('../images/my_img+old.gif');*/ position:relative;}
 .contact_section h2			{font-size:1.5em;}
 .contact_section .btn			{padding-left:0px !important; box-shadow:none !important;}
-.contact_section::after               {content:''; position:absolute; top:20%; right:-100px; width:250px;height:300px; transform: skewX(50deg); -webkit-transform: skewX(50deg);-moz-transform: skewX(50deg);background: rgba(46, 38, 75, 0.75);z-index:1;}
+/*.contact_section::after               {content:''; position:absolute; top:20%; right:-100px; width:250px;height:300px; transform: skewX(50deg); -webkit-transform: skewX(50deg);-moz-transform: skewX(50deg);background: rgba(46, 38, 75, 0.75);z-index:1;}*/
 .phone_email                          {margin:3em 0em;}
 .phone_email h2 span                  {font-size:0.8em;}
 .phone_email h2 a                     {font-weight:600; padding-right:2em;}
@@ -448,7 +448,6 @@ footer {
 .social_media ul li a:hover span.behance      {background-position:-128px -16px;}
 .social_media ul li a:hover span.angellist    {background-position:-144px -16px;}
 
-footer                                {position:absolute; left:50%;bottom:10px; transform:translateX(-50%);-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);}
 footer p                              {text-align:center; padding:10px;}
 /****************COLOR************/
 .orange                         {background: #f7d223;}
