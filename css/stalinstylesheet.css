@@ -108,8 +108,9 @@ a,a:hover,a:focus								  {text-decoration:none; outline:none !important;}
   width: 100%;
   height: auto;
   min-height: 35rem;
-  padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255,255,255,0.3) 0%, rgba(4, 43, 51,0.7) 100%), url("../img/bg-masthead.jpg");
+  padding: 15rem 0 3rem 0;
+  background-color:#000;
+  /*background: linear-gradient(90deg, rgba(255,255,255,0.3) 0%, rgba(4, 43, 51,0.7) 100%), url("../img/bg-masthead.jpg");*/
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -416,11 +417,11 @@ footer {
 .contact_section                      {clear:both;padding:3em 0px; background-color:#f8f8f8; z-index:1;/*background-image: url('../images/my_img+old.gif');*/ position:relative;}
 .contact_section h2			{font-size:1.5em;}
 .contact_section .btn			{padding-left:0px !important; box-shadow:none !important;}
-/*.contact_section::after               {content:''; position:absolute; top:20%; right:-100px; width:250px;height:300px; transform: skewX(50deg); -webkit-transform: skewX(50deg);-moz-transform: skewX(50deg);background: rgba(46, 38, 75, 0.75);z-index:1;}*/
+.contact_section::after               {content:''; position:absolute; top:20%; right:-100px; width:250px;height:300px; transform: skewX(50deg); -webkit-transform: skewX(50deg);-moz-transform: skewX(50deg);background: rgba(46, 38, 75, 0.75);z-index:1;}
 .phone_email                          {margin:3em 0em;}
 .phone_email h2 span                  {font-size:0.8em;}
 .phone_email h2 a                     {font-weight:600; padding-right:2em;}
-.myimg                                {position:absolute; top:10%; right:100px;width:150px;height:370px;border:10px solid  rgba(46, 38, 75, 0.22); background-image: url('../img/bg-masthead1.jpg'); background-repeat: repeat; background-position: 59%; background-attachment: fixed;z-index:2;}
+.myimg                                {position:absolute; top:10%; right:100px;width:150px;height:370px;border:10px solid  rgba(46, 38, 75, 0.22); background-image: url('../img/bg-masthead1.JPG'); background-repeat: repeat; background-position: 59%; background-attachment: fixed;z-index:2;}
 .social_media ul                      {width:100%; padding-left:0px;}
 .social_media ul li                   {padding:1em 2em 1em 0em; float:left; list-style:none;}
 .social_media ul li a                 {font-size:0.9em;}
