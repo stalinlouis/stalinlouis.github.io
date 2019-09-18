@@ -448,7 +448,7 @@ a:focus, a:hover {
 .social_media ul li a:hover span.dribbble     {background-position:-112px -16px;}
 .social_media ul li a:hover span.behance      {background-position:-128px -16px;}
 .social_media ul li a:hover span.angellist    {background-position:-144px -16px;}
-
+footer{clear: both;position: absolute; bottom: 0px; left: 50%; transform: translate(-50%, 0%);}
 footer p                              {text-align:center; padding:10px;}
 @media only screen and (min-width: 320px) and (max-width:767px) {
 .myimg                                	{top:35%; right:20px;}
