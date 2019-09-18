@@ -354,9 +354,6 @@ a:focus, a:hover {
   color: #64a19d !important;
 }
 
-footer {
-  padding: 5rem 0;
-}
 .logo  img{
     width: 30px;
     margin: 5px 15px 0px 15px;
@@ -454,8 +451,9 @@ footer {
 
 footer p                              {text-align:center; padding:10px;}
 @media only screen and (min-width: 320px) and (max-width:767px) {
-.myimg                                	{top:50%; right:20px;}
+.myimg                                	{top:35%; right:20px;}
 .social_media ul li                   {float:inherit !important;}
+footer                              {clear: both;}
 }
 /****************COLOR************/
 .orange                         {background: #f7d223;}
