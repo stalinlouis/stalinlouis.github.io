@@ -113,7 +113,7 @@ canvas.onmousemove = function(event) {
   mouse.x = event.clientX - canvas.offsetLeft;
   mouse.y = event.clientY - canvas.offsetTop;
 };
-document.getElementById('header').onresize = function(event){
+document.body.onresize = function(event){
   H = (canvas.height = window.innerHeight);
   W = (canvas.width = window.innerWidth);
 }
