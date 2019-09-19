@@ -454,7 +454,9 @@ footer p                              {text-align:center; padding:10px;}
 .contact_section h2			{font-size:1.1em !important;}
 .myimg                                	{top:42%; right:20px;width:110px;}
 .social_media ul li                   {float:inherit !important;}
+.social_media ul li a                 {font-size:0.7em;}
 footer{clear: both;position: inherit !important; bottom: inherit !important; left: inherit !important transform: inherit !important;}
+footer p                              {font-size:0.7em;}
 }
 /****************COLOR************/
 .orange                         {background: #f7d223;}
