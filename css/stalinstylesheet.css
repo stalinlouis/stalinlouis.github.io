@@ -452,8 +452,9 @@ footer{clear: both;position: absolute; bottom: 0px; left: 50%; transform: transl
 footer p                              {text-align:center; padding:10px;}
 @media only screen and (min-width: 320px) and (max-width:767px) {
 .contact_section h2			{font-size:1.1em !important;}
+.phone_email 			{margin: 3em 0em 0.5em 0em;}
 .myimg                                	{top:42%; right:20px;width:110px;}
-.social_media ul li                   {float:inherit !important;}
+.social_media ul li                   {float:inherit !important;  padding: 0.5em 2em 0.5em 0em;}
 .social_media ul li a                 {font-size:0.7em;}
 footer{clear: both;position: inherit !important; bottom: inherit !important; left: inherit !important transform: inherit !important;}
 footer p                              {font-size:0.7em;}
