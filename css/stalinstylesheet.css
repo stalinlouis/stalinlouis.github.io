@@ -451,9 +451,10 @@ a:focus, a:hover {
 footer{clear: both;position: absolute; bottom: 0px; left: 50%; transform: translate(-50%, 0%);}
 footer p                              {text-align:center; padding:10px;}
 @media only screen and (min-width: 320px) and (max-width:767px) {
-.myimg                                	{top:35%; right:20px;}
+.contact_section h2			{font-size:1.1em !important;}
+.myimg                                	{top:42%; right:20px;width:110px;}
 .social_media ul li                   {float:inherit !important;}
-footer                              {clear: both;}
+footer{clear: both;position: inherit !important; bottom: inherit !important; left: inherit !important transform: inherit !important;}
 }
 /****************COLOR************/
 .orange                         {background: #f7d223;}
