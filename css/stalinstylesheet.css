@@ -459,6 +459,9 @@ footer p                              {text-align:center; padding:10px;}
 footer{clear: both;position: inherit !important; bottom: inherit !important; left: inherit !important transform: inherit !important;}
 footer p                              {font-size:0.7em;}
 }
+.pageview_counter                     {position: absolute;right: -5px;background-color: #605b76;border: 1px solid #605b76;bottom: 20px;padding: 10px 40px 2px 10px;transform: skewX(50deg);}
+.pageview_counter img                 {transform: skewX(-50deg); -webkit-transform: skewX(-50deg); -moz-transform: skewX(-50deg); margin-left: 10px;}
+
 /****************COLOR************/
 .orange                         {background: #f7d223;}
 .gray                           {background: #e4e6b9;}
